@@ -1,0 +1,19 @@
+name: moment_detr
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.7
+  - cudatoolkit=11.0
+  - pytorch=1.9.0
+  - torchvision=0.10.0
+  - torchaudio=0.9.0
+  - pip
+  - pip:
+      - tqdm
+      - ipython
+      - easydict
+      - tensorboard
+      - tabulate
+      - scikit-learn
+      - pandas
